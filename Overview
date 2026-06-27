@@ -1,0 +1,62 @@
+# Customer Churn Prediction using Machine Learning
+
+## Overview
+
+This project predicts whether a telecom customer is likely to churn using supervised machine learning techniques. The workflow includes data preprocessing, exploratory data analysis (EDA), feature engineering, model training, evaluation, and comparison of multiple classification algorithms.
+
+## Dataset
+
+* Dataset: IBM Telco Customer Churn
+* Records: 7,043 customers
+* Target Variable: `Churn` (Yes/No)
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+## Project Workflow
+
+1. Loaded and explored the dataset.
+2. Cleaned the data and handled missing values.
+3. Performed Exploratory Data Analysis (EDA).
+4. Encoded categorical features and prepared the dataset.
+5. Split the data into training and testing sets.
+6. Trained and evaluated Logistic Regression and Random Forest models.
+7. Compared model performance using Accuracy, Precision, Recall, F1-score, and Confusion Matrix.
+8. Selected the best-performing model and analyzed important features influencing customer churn.
+
+## Results
+
+* Compared Logistic Regression and Random Forest classifiers.
+* Selected the model with the better test performance.
+* Identified key factors contributing to customer churn through feature importance analysis.
+
+## Repository Structure
+
+```
+Customer-Churn-Prediction/
+│── Customer_Churn.ipynb
+│── Telco-Customer-Churn.csv
+│── customer_churn_model.pkl
+│── README.md
+```
+
+## Skills Demonstrated
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Feature Engineering
+* Machine Learning
+* Model Evaluation
+* Business Insights
+
+## Future Improvements
+
+* Hyperparameter tuning for improved model performance.
+* Deploy the model using Streamlit or Flask.
+* Experiment with advanced ensemble algorithms such as XGBoost.
